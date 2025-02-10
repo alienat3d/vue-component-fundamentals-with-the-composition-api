@@ -11,7 +11,7 @@ const plans = ref(['The Single', 'The Curious', 'The Addict', 'The Hacker'])
       We travel the world to source the very best single origin coffee for you
     </h2>
     <div class="plans">
-      <CoffeePlan v-for="plan in plans" :key="plan" :name="true"></CoffeePlan>
+      <CoffeePlan v-for="plan in plans" :key="plan" :name="plan"></CoffeePlan>
     </div>
   </div>
 </template>
