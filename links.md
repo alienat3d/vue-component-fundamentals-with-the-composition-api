@@ -1,0 +1,2 @@
+- (Vue.js Docs - Components Basics)[https://vuejs.org/guide/essentials/component-basics.html]
+- (Vue.js Docs - Props)[https://vuejs.org/guide/components/props.html]
