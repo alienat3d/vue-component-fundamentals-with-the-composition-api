@@ -1,6 +1,9 @@
 <script setup>
 defineProps({
-  name: { type: String, default: 'Default Plan' },
+  name: {
+    type: String,
+    default: 'Default Plan',
+  },
   selected: { type: Boolean, default: false },
 })
 </script>
