@@ -3,3 +3,4 @@
 - (Vue.js Docs - Style Guide)[https://vuejs.org/style-guide/]
 - (Vue.js Docs - LifeCycle Hooks)[https://vuejs.org/guide/essentials/lifecycle]
 - (Vue.js Docs API - Lifecycle Hooks)[https://vuejs.org/api/composition-api-lifecycle.html#composition-api-lifecycle-hooks]
+- (Vue.js Docs - Slots)[https://vuejs.org/guide/components/slots.html]

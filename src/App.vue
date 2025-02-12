@@ -1,17 +1,26 @@
 <script setup>
-import { ref } from 'vue'
-import PlanPicker from './components/PlanPicker.vue'
-
-const show = ref(true)
+import IconEmail from './components/icons/IconEmail.vue'
+import FancyButton from './components/FancyButton.vue'
 </script>
-
 <template>
   <div class="content">
-    <h1 class="title">Coffee Plans</h1>
-    <h2 class="subtitle">
-      We travel the world to source the very best single origin coffee for you
-    </h2>
-    <label> <input v-model="show" type="checkbox" />Show plan picker </label>
-    <PlanPicker v-if="show" />
+    <FancyButton><strong>S</strong>ubmit</FancyButton>
+    <FancyButton><i>Cancel</i></FancyButton>
+    <FancyButton><strong>Re-</strong><br />play</FancyButton>
+    <FancyButton
+      ><template v-slot:icon><IconEmail /></template
+      ><template v-slot:default>Email Us</template></FancyButton
+    >
+    <FancyButton
+      ><template #icon="{ hover }"> {{ hover ? '👍' : '📝' }} </template>Subscribe</FancyButton
+    >
   </div>
 </template>
+<style scoped>
+svg {
+  margin-right: 7px;
+  vertical-align: top;
+  width: 20px;
+  height: 20px;
+}
+</style>
