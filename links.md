@@ -1,2 +1,5 @@
 - (Vue.js Docs - Components Basics)[https://vuejs.org/guide/essentials/component-basics.html]
 - (Vue.js Docs - Props)[https://vuejs.org/guide/components/props.html]
+- (Vue.js Docs - Style Guide)[https://vuejs.org/style-guide/]
+- (Vue.js Docs - LifeCycle Hooks)[https://vuejs.org/guide/essentials/lifecycle]
+- (Vue.js Docs API - Lifecycle Hooks)[https://vuejs.org/api/composition-api-lifecycle.html#composition-api-lifecycle-hooks]
