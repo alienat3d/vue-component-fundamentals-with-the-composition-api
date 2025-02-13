@@ -1,3 +1,6 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
 html {
@@ -305,16 +308,17 @@ button {
 }
 
 body {
-	height: 100vh;
+	padding-bottom: 2rem;
+	/* height: 100vh; */
 	-webkit-font-smoothing: auto;
 	-moz-osx-font-smoothing: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-family: Roboto, sans-serif;
 	background-color: #ccdcdc;
-	background-image: url('coffee.jpg');
-	background-repeat: no-repeat;
-	background-position: 100% 100%;
+	/* background-image: url('coffee.jpg'); */
+	/* background-repeat: no-repeat; */
+	/* background-position: 100% 100%; */
 }
 
 .content {
@@ -734,4 +738,8 @@ a {
 a:not(.btn):hover {
 	color: #127077;
 	text-decoration: underline;
+}
+
+body {
+	background: #222;
 }

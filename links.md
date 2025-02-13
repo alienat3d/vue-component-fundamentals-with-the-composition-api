@@ -4,3 +4,6 @@
 - (Vue.js Docs - LifeCycle Hooks)[https://vuejs.org/guide/essentials/lifecycle]
 - (Vue.js Docs API - Lifecycle Hooks)[https://vuejs.org/api/composition-api-lifecycle.html#composition-api-lifecycle-hooks]
 - (Vue.js Docs - Slots)[https://vuejs.org/guide/components/slots.html]
+- (Tailwind Install Instructions)[https://tailwindcss.com/docs/guides/vite#vue]
+- (DaisyUI Install Instructions)[https://daisyui.com/docs/install/]
+- (Daisy UI Card Component)[https://daisyui.com/components/card/#card-with-image-on-side]
